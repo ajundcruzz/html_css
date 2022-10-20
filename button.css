@@ -1,0 +1,25 @@
+
+.btn-primary {
+	background-color:blue;
+	color:white;
+	border-radius: 6px;
+	border-color: blue;
+	border-width: 2px; 
+	margin= 4px;
+	
+	
+}
+.btn-secondary {
+	background-color: gray;
+	color:white;
+	border-radius: 6px;
+	border-color: gray;
+	border-width: 2px;
+}
+.btn-danger {
+	background-color: red;
+	color:white;
+	border-radius: 6px;
+	border-color: red;
+	border-width: 2px;
+}
