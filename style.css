@@ -1,0 +1,10 @@
+h1,h2 {
+	
+color: red;
+font-family: "Playfair Display";
+
+}
+p,ul,ol {
+	color: black;
+	font-family: "Poppins";
+}
