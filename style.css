@@ -1,10 +1,50 @@
+body {
+	background: skyblue;
+	 
+}
+a{ 
+   color:black;
+}
+header{
+	  background:#e8e527;
+	  display:flex;
+	  align-Content:flex-end;
+	  justify-content:space-betweek;
+	  flex-direction:row;
+	  
+}
+main.Aboutme{
+	display:flex;
+}
+img{
+	margin-left:500px;
+	height:150px;
+	width:150px;
+	
+}
+
+section{
+	display:flex;
+	
+}
+
 h1,h2 {
 	
-color: red;
-font-family: "Playfair Display";
+color: white;
+font-family: "Poppins";
 
 }
 p,ul,ol {
 	color: black;
-	font-family: "Poppins";
+	font-family: "Playfair Display";
+}
+h3 {
+	color:green;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
