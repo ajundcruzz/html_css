@@ -1,50 +1,118 @@
 body {
-	background: skyblue;
-	 
+	background:black;
+		
 }
-a{ 
-   color:black;
+a{
+	text-decoration:none;
+	padding:10px;
 }
-header{
-	  background:#e8e527;
-	  display:flex;
-	  align-Content:flex-end;
-	  justify-content:space-betweek;
-	  flex-direction:row;
-	  
-}
-main.Aboutme{
-	display:flex;
-}
-img{
-	margin-left:500px;
-	height:150px;
-	width:150px;
-	
-}
-
-section{
+.page{
+	height:100vh;
+	width:100%;
 	display:flex;
 	
 }
 
-h1,h2 {
-	
-color: white;
-font-family: "Poppins";
-
-}
-p,ul,ol {
-	color: black;
+h1{
+	color:red;
 	font-family: "Playfair Display";
 }
-h3 {
-	color:green;
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+.intro{
+	margin-top:500;
+	font-size:20px;
 }
+span{
+	color:#fce651;
+}
+.navbar {
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	list-style:none;
+	justify-Content:flex-end;
+	align-content:center;
+}
+
+li a:hover{
+ color:white;
+}
+.logo{
+	display:flex;
+}
+.bar{
+	margin-right:30px;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+.navbar ul li{
+	display:inline;
+	
+}
+.navbar ul li a{
+	padding:20px;
+	color:red;
+	
+}
+
+
+.me{
+	width:100%;
+	padding:100px 0px;
+}
+.about {
+	display:flex;
+	flex-direction:row;
+
+}
+.about-text img{
+	margin-right:0px;
+	height:125px;
+	width:125px;
+}
+.page{
+	
+	background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:120%;
+}
+
+h2 {
+	
+    color: red;
+    font-family: "Playfair Display";
+
+}
+h2{
+	text-align:center;
+}
+h3{
+	text-align:center;
+	color:green;
+}
+p,ul,ol {
+	
+	margin-left:10px;
+	color: white  ;
+	font-family: "Poppins";
+	font-size:20px;
+}
+footer{
+	background:gray;
+}
+footer div a img {
+	width:35px;
+	height:auto;
+	margin-left:250px;
+	
+}
+.Top a{
+	margin-left:650px;
+	font-size:40px;
+}
+
+
